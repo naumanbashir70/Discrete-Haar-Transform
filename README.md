@@ -88,7 +88,7 @@ At (10*), the colthing inverse return the output to the rowthing inverse functio
 ![Picture6](https://user-images.githubusercontent.com/58822992/121517885-4a009280-ca09-11eb-980d-d47fdd266628.jpg)
 
 
-## 8.	Rowthing Inverse
+## 8. Rowthing Inverse
 Rowthing inverse uses the output of colthing inverse function. This function works opposite to the colthing function.
 
 At (11*), the rowthing inverse performs the inverse row wise operation on the input.
@@ -96,7 +96,7 @@ At (11*), the rowthing inverse performs the inverse row wise operation on the in
 ![Picture7](https://user-images.githubusercontent.com/58822992/121517909-5127a080-ca09-11eb-88b5-4ce7b05bd7a3.jpg)
 
 
-## 9.	9.	UnSquisher
+## 9. UnSquisher
 UnSquisher uses Rowthing Inverse and Colthing Inverse. It iteratively passes the image to colthing inverse and pass the output of colthing inverse to the rowthing inverse. This process continues until the image of 256x256.
 
 At (12*), the unsquisher perform inverse squisher operation on image using colthing inverse and rowthing inverse and return the output.
